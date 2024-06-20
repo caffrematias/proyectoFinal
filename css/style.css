@@ -177,12 +177,7 @@ h3{
 }
 
 /*tienda*/
-.productos-categorias{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
 
-}
 .productos-categorias li a{
     text-decoration: none;
     color: white;
@@ -191,24 +186,8 @@ h3{
     display: flex;
     justify-content: end;
 }
-
-.productos-items{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas:
-    "item1 item2 item3"
-    "item4 item5 item6";
-    justify-items: center;
-    gap: 2.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    
-}
-
 .picante_suave{
-    grid-area: item1;
+    
     text-align:center;
     border: .3125rem;
 }
@@ -217,7 +196,6 @@ h3{
     height: 15rem;
 }
 .picante_extremo{
-    grid-area: item2;
     text-align:center;
 }
 .picante_extremo img{
@@ -225,7 +203,7 @@ h3{
     height: 15rem;
 }
 .picante_extra{
-    grid-area: item3;
+   
     text-align:center;
 }
 .picante_extra img{
@@ -233,7 +211,7 @@ h3{
     height: 15rem;
 }
 .picante_siracha{
-    grid-area: item4;
+   
     text-align:center;
 }
 .picante_siracha img{
@@ -241,7 +219,6 @@ h3{
     height: 15rem;
 }
 .picante_tabasco{
-    grid-area: item5;
     text-align:center;
 }
 .picante_tabasco img{
@@ -249,7 +226,6 @@ h3{
     height: 15rem;
 }
 .picante_cilantro{
-    grid-area: item6;
     text-align:center;
 }
 .picante_cilantro img{
