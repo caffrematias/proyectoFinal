@@ -51,8 +51,8 @@ main{
 }
 
 .opcionesprincipales{
-    display: flex;
-    flex-direction: row;
+  /*  display: flex;
+ /*   flex-direction: row;*/
     align-items: center;
     text-align: center;
     justify-content: center;
