@@ -234,6 +234,38 @@ h3{
 }
 
 
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapa{
+        width: 30rem;
+        height: 40rem;
+    }
+
+}
+
+@media(max-width: 560px){
+    header{
+        position:absolute;
+        height: 15rem;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 100%;
+        height: 60rem;
+    }
+    }
+    .mapa{
+        width: 20rem;
+        height: 30rem;
+   }
 
 
 
