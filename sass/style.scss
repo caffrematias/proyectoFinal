@@ -2,5 +2,11 @@
 @import "./base/reset";
 @import "./base/tipografias";
 @import "./layout/header";
-@import "./layout/main-index";
-@import "./components/navbar"
+@import "./layout/_main-index";
+@import "./layout/main-tienda";
+@import "./layout/main-nosotros";
+@import "./layout/acceder_registrarse-main";
+@import "./layout/footer";
+@import "./components/_navbar";
+@import "./layout/mediaQ/768.scss";
+@import "./layout/mediaQ/560.scss";

@@ -1,0 +1,53 @@
+.productos-categorias li a{
+    text-decoration: none;
+    color: white;
+}
+.ordenpredeterminado{
+    display: flex;
+    justify-content: end;
+}
+.picante_suave{
+    text-align:center;
+    border: .3125rem;
+    img{
+        width: 10rem;
+        height: 15rem;
+    }
+}
+.picante_extremo{
+    text-align:center;
+    img{
+        width: 10rem;
+        height: 15rem;
+    }
+}
+.picante_extra{
+    text-align:center;
+    img{
+        width: 10rem;
+        height: 15rem;
+    }
+}
+.picante_siracha{
+    text-align:center;
+    img{
+        width: 10rem;
+        height: 15rem;
+    }
+}
+
+.picante_tabasco{
+    text-align:center;
+    img{
+        width: 10rem;
+        height: 15rem;
+    }
+}
+
+.picante_cilantro{
+    text-align:center;
+    img{
+        width: 12rem;
+        height: 15rem;
+    }
+}

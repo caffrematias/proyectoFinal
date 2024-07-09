@@ -1,0 +1,38 @@
+footer{
+    background-color: rgb(143, 127, 127);
+    
+}
+.redes{
+    padding: 2rem 0rem 2rem .5rem;
+    img{
+        width: 3rem;
+        height: 3rem;
+        flex-direction: row;
+    }
+}
+.mediosdepago{
+    padding: 0rem 0rem 2rem .5rem;
+    img{
+        width: 3rem;
+        height: 3rem;
+        flex-direction: row;
+    }
+}
+.direccion{   
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color:black;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .contact h2{
+        font-size: 2.5rem;
+    }
+    .contact p{
+        align-items: center;
+        font-size: 1.25rem;
+    }
+}

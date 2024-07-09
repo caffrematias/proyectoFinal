@@ -1,0 +1,27 @@
+@media(max-width: 560px){
+    header{
+        position:relative;
+        height: 15rem;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nosotros img{
+        width: 18rem;
+        height: 8rem;
+        }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    .mapa{
+        width: 20rem;
+        height: 30rem;
+    }
+    .contein{
+        flex-direction: column;    
+        gap: 4rem;
+    }
+    }

@@ -1,0 +1,29 @@
+.contein{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: row;
+    
+    align-items: center;
+    padding-left: 15rem;
+    h2{
+        font-size: 1.875rem;
+    }
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.25rem;
+    
+}
+.inicio_sesion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.25rem;
+}
+.iniciar{
+    padding: .3125rem;
+    
+}

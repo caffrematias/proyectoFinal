@@ -4,6 +4,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+h2 {
+  font-family: "Sedan SC", serif;
+  font-weight: 800;
+  font-size: 1.5625rem; }
+
+h3 {
+  font-family: "Sedan SC", serif;
+  font-weight: 600;
+  font-size: 24px; }
+
 header {
   display: flex;
   width: 100%;
@@ -16,15 +26,202 @@ header {
   position: sticky;
   top: 0; }
 
+main {
+  background-color: #e29898; }
+
+.opcionesprincipales p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 5px 20px; }
+
+.seccionBienvenida p {
+  padding: 2rem 6rem;
+  text-align: center;
+  font-size: 2rem;
+  color: black; }
+
+.opcionesprincipales {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1,25rem;
+  padding-bottom: 5rem; }
+  .opcionesprincipales img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50rem 50rem 50rem 50rem;
+    border: 4px solid black; }
+
+.productos-categorias li a {
+  text-decoration: none;
+  color: white; }
+
+.ordenpredeterminado {
+  display: flex;
+  justify-content: end; }
+
+.picante_suave {
+  text-align: center;
+  border: .3125rem; }
+  .picante_suave img {
+    width: 10rem;
+    height: 15rem; }
+
+.picante_extremo {
+  text-align: center; }
+  .picante_extremo img {
+    width: 10rem;
+    height: 15rem; }
+
+.picante_extra {
+  text-align: center; }
+  .picante_extra img {
+    width: 10rem;
+    height: 15rem; }
+
+.picante_siracha {
+  text-align: center; }
+  .picante_siracha img {
+    width: 10rem;
+    height: 15rem; }
+
+.picante_tabasco {
+  text-align: center; }
+  .picante_tabasco img {
+    width: 10rem;
+    height: 15rem; }
+
+.picante_cilantro {
+  text-align: center; }
+  .picante_cilantro img {
+    width: 12rem;
+    height: 15rem; }
+
+.titulo_nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem; }
+  .nosotros img {
+    width: 30rem; }
+
+.contein {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15rem; }
+  .contein h2 {
+    font-size: 1.875rem; }
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.25rem; }
+
+.inicio_sesion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.25rem; }
+
+.iniciar {
+  padding: .3125rem; }
+
+footer {
+  background-color: #8f7f7f; }
+
+.redes {
+  padding: 2rem 0rem 2rem .5rem; }
+  .redes img {
+    width: 3rem;
+    height: 3rem;
+    flex-direction: row; }
+
+.mediosdepago {
+  padding: 0rem 0rem 2rem .5rem; }
+  .mediosdepago img {
+    width: 3rem;
+    height: 3rem;
+    flex-direction: row; }
+
+.direccion {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .contact .contact h2 {
+    font-size: 2.5rem; }
+  .contact .contact p {
+    align-items: center;
+    font-size: 1.25rem; }
+
 .navbar {
   display: flex;
   gap: 1.5625rem;
   list-style: none;
   padding-right: 1.25rem;
   font-size: 1.25rem; }
-  .navbar .navbar li a {
+  .navbar a {
     text-decoration: none;
+    text-decoration-color: none;
     color: white; }
-  .navbar h1 a {
-    text-decoration: none;
-    color: white; }
+
+h1 a {
+  text-decoration: none;
+  color: white; }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .mapa {
+    width: 30rem;
+    height: 40rem; }
+  .nosotros img {
+    width: 24rem;
+    height: 14rem; }
+  .nosotros p {
+    font-size: 15px; }
+  .contein {
+    gap: 8rem;
+    padding-left: 8rem; } }
+
+@media (max-width: 560px) {
+  header {
+    position: relative;
+    height: 15rem; }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .nosotros img {
+    width: 18rem;
+    height: 8rem; }
+  main {
+    width: 100%;
+    height: auto; }
+  .mapa {
+    width: 20rem;
+    height: 30rem; }
+  .contein {
+    flex-direction: column;
+    gap: 4rem; } }
