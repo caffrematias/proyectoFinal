@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    gap: 1.5625rem;
+    list-style: none;
+    padding-right: 1.25rem;
+    font-size: 1.25rem;
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+    }
+    h1 a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
